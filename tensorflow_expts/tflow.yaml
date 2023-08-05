@@ -1,0 +1,11 @@
+# For simplilearn https://www.youtube.com/watch?v=d9N0IGb5QP0
+name: tflow
+channels:
+  - default
+dependencies:
+  - pip
+  - python=3.4
+  - notebook
+  - pip:
+    - tensorflow==1.5
+prefix: $HOME/anaconda3/envs/tflow
